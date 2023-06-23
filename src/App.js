@@ -19,6 +19,12 @@ function App() {
           Workout
         </ul>
       </li>
+      
+    </div>
+    <div class="future-board">
+      <p>Tomorrow:</p>
+      <p>List here</p>
+      <p>List there</p>
     </div>
       </header>
     </div>

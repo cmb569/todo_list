@@ -2,10 +2,40 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-board{
+  background-color: white;
+  color:blue;
+  margin-right:700px;
+  padding: 250px;
 }
+
+
+.future-board{
+  background-color: white;
+  color:blue;
+  margin-left:700px;
+  margin-bottom:1000px;
+  padding: 250px;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  }
+
+  .row:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+
+
+
+
+
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
